@@ -1,6 +1,6 @@
 /* 
 
-Project Name: Cookie Monster 
+Project Name: My Portfolio
 Client: Cookie Monster
 Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
 Developed @ One Month in NYC 
@@ -9,7 +9,6 @@ Developed @ One Month in NYC
 
 body {
 	background: url(../images/nature-nature.jpg);
-	height: 100px;
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
