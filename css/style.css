@@ -8,35 +8,47 @@ Developed @ One Month in NYC
 */
 
 body {
-	background: url(../images/1-scene.jpg);
-	/*background: url('../images/cookie-monster.jpg');*/
-	/* the follow is the code to have the image display as a full page */
+	background: url(../images/nature-nature.jpg);
+	height: 100px;
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: 1500px;
 }
 #container {
 	padding: 15px;
-	width: 400px;
+	width: 1335px;
+	height: 450px;
 	background: white;
 	color: black;
 	font-family: 'Sansita Swashed', cursive;
+	align-self: center;
+	opacity: 0.75;
 }
 
 h1{
-	font-size: 50px
+	font-size: 75px;
+	text-align: center;
+	opacity: 1;
+
 }
 
 h2 {
 	background: #3ef7cc;
 	padding: 5px;
 	border-radius: 5px;
+	text-align: center;
+	opacity: 1;
 }
 
 a {
 	text-decoration: none;
 	color: #ff843d;
+	opacity: 1;
+}
+p {
+	font-size: 15px;
+	opacity: 1;
 }
