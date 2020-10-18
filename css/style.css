@@ -1,7 +1,7 @@
 /* 
 
 Project Name: My Portfolio
-Client: Cookie Monster
+Client: Raghav
 Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
 Developed @ One Month in NYC 
 
@@ -9,6 +9,8 @@ Developed @ One Month in NYC
 
 body {
 	background: url(../images/nature-nature.jpg);
+	size: 100%;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
@@ -18,13 +20,15 @@ body {
 }
 #container {
 	padding: 15px;
-	width: 1335px;
-	height: 450px;
 	background: white;
 	color: black;
 	font-family: 'Sansita Swashed', cursive;
 	align-self: center;
 	opacity: 0.75;
+	width: 1320px;
+	position: center;
+	top: 0px;
+	right: 0px;
 }
 
 h1{
@@ -44,21 +48,34 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: #ff843d;
+	color: black;
 	opacity: 1;
+}
+a:hover {
+	color: white;
 }
 p {
 	font-size: 15px;
 	opacity: 1;
 }
+b {
+	color: darkorange;
+}
 button {
-        color: black;
-        font-family: 'Lemonada', cursive;
-        background-color: white;
-        border-radius: 8px;
-        transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	border:  5px solid cornflowerblue;
+	transition-duration: 0.4s;
 }
 button:hover {
-        color: white;
-        background-color: black;
+	background-color: black;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+iframe {
+	align-self: auto;
+	opacity: 2;
 }
