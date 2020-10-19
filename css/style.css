@@ -99,17 +99,18 @@ iframe {
 
 h5 {
 	color: black;
-	transition-duration: 0.5s;
-}
-h6 {
 	text-align: center;
 	background-color: #3ef7cc;
-	color: black;
 	transition-duration: 0.4s;
 	border-radius: 5px;
 	align-self: center;
 }
-h6:hover {
+
+h5:hover {
 	color: white;
 	background-color: #ff6534;
+}
+i {
+	background-color: white;
+	text-align: left;
 }
