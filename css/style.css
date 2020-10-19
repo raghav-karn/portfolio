@@ -8,7 +8,7 @@ Developed @ One Month in NYC
 */
 
 body {
-	background: url(../images/nature-nature.jpg);
+	background: url(../images/nature-seedling.png);
 	size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -23,12 +23,20 @@ body {
 	background: white;
 	color: black;
 	font-family: 'Sansita Swashed', cursive;
-	align-self: center;
 	opacity: 0.75;
-	width: 1320px;
+	width: 1000px;
 	position: center;
-	top: 0px;
-	right: 0px;
+	align-self: auto;
+	background-position-x: center;
+	background-position-y: center;
+	transition-duration: 0.3s;
+	border-radius: 10px;
+
+}
+
+#container:hover {
+	background-color: black;
+	color: white;
 }
 
 h1{
@@ -44,6 +52,13 @@ h2 {
 	border-radius: 5px;
 	text-align: center;
 	opacity: 1;
+	transition-duration: 0.5s;
+	color: black;
+}
+
+h2:hover {
+	background-color: #ff6534;
+	color: white;
 }
 
 a {
@@ -69,13 +84,32 @@ button {
 	font-size: 20px;
 	border:  5px solid cornflowerblue;
 	transition-duration: 0.4s;
+	align-self: auto;
 }
 button:hover {
 	background-color: black;
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border: 5px solid #d1ff32;
 }
 iframe {
 	align-self: auto;
-	opacity: 2;
+	opacity: 1;
+}
+
+h5 {
+	color: black;
+	transition-duration: 0.5s;
+}
+h6 {
+	text-align: center;
+	background-color: #3ef7cc;
+	color: black;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+	align-self: center;
+}
+h6:hover {
+	color: white;
+	background-color: #ff6534;
 }
